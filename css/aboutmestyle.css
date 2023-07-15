@@ -140,12 +140,12 @@ h1 {
 /*ABOUT SECTION*/
 
 section#about {
-    padding-top: 40px;
+    padding-top: 50px;
     padding-left: 40px;
-    
-    background-color: #ffffff;
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.82)),to(rgba(255, 239, 239, 0.82))), url('../img/shattered.png');
-    background-image: linear-gradient(rgba(28,28,28,.82),rgba(28,28,28,.82)), url('../img/shattered.png');
+    background-color: #3c373e;
+    /* background-color: #ffffff; */
+    /* background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.82)),to(rgba(255, 239, 239, 0.82))), url('../img/shattered.png');
+    background-image: linear-gradient(rgba(28,28,28,.82),rgba(28,28,28,.82)), url('../img/shattered.png'); */
     background-repeat: repeat;
 }
 
@@ -159,7 +159,10 @@ section#about {
     border-radius: 100%;
     border:1px solid #C1B283;
 }
-
+.about-content{
+    padding-left: 40px;
+    padding-right: 40px;
+}
 @media only screen and (min-width: 992px) {
     section#about .container {
         display: -webkit-box;
@@ -182,6 +185,7 @@ section#about {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    padding-bottom: 40px;
     }
 
     .about-content {
@@ -203,6 +207,7 @@ section#about {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    color: #bcbcbc;
 }
 
 @media only screen and (min-width: 992px) {
@@ -218,4 +223,105 @@ section#about {
 
 .about-content span {
     color: #fff;
+}
+
+
+section#quote {
+    padding: 30px 0;
+    background-color: #383838;
+    text-align: center;
+}
+
+section#quote h3 {
+    color: #ded1c1;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+section#quote p {
+    margin-top: 15px;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: #b1b1b1;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+@media only screen and (min-width: 576px) {
+    section#quote p {
+        text-align: right;
+        display: block;
+        margin-right: 20%;
+    }
+}
+
+/*COPYRIGHT*/
+
+section#copyright {
+    background-color: #f5f5f5;
+}
+
+section#copyright .container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+section#copyright .social-icons {
+    margin-top: 20px;
+}
+
+section#copyright .social-icons i {
+    color: #383838;
+    font-size: 32px;
+    margin-left: 32px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+section#copyright .social-icons i:hover {
+    color: #C1B283;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+@media only screen and (min-width: 576px) {
+    section#copyright .container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    section#copyright .social-icons {
+        margin-top: 0;
+        /*        margin-left: auto;*/
+    }
+}
+
+@media only screen and (max-width: 577px) {
+    section#copyright .social-icons a:first-child {
+        margin-left: -32px;
+    }
+}
+
+section#education{
+    padding-top: 40px;
+    
+}
+.container{
+    padding: auto;
 }
