@@ -378,3 +378,20 @@ section#copyright .social-icons i:hover {
         -ms-flex:1;
             flex:1;
 }
+.content .button-cta {
+    margin-top: 40px;
+    padding: 15px 42px;
+    background-color: #ded1c1;
+    border:1px solid #c1b283;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: 300;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.content .button-cta:hover{
+    background-color: #d8c9b6;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
