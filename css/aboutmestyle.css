@@ -320,8 +320,12 @@ section#copyright .social-icons i:hover {
 
 section#education{
     padding-top: 40px;
+    background-color: #3c373e;
     
 }
-.container{
-    padding: auto;
+
+section#education .containerW{
+    padding-top: 40px;
+    background-color: #3c373e;
+    
 }
