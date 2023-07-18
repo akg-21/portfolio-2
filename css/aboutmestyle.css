@@ -163,6 +163,7 @@ section#about {
     padding-left: 40px;
     padding-right: 40px;
 }
+
 @media only screen and (min-width: 992px) {
     section#about .container {
         display: -webkit-box;
